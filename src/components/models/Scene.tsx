@@ -35,7 +35,7 @@ const scene = () => {
             <directionalLight intensity={0.5} color={"white"} position={[-2, 3, 2]} castShadow/>
             <mesh castShadow receiveShadow>
                 <boxGeometry args={[1, 1, 1]}/>
-                <meshStasndardMaterial color={"blue"}/>
+                <meshStandardMaterial color={"blue"}/>
             </mesh>
             <mesh position={[-1.5, 1, 1]} castShadow>
                 <sphereGeometry args={[0.5, 32, 64]}/>
